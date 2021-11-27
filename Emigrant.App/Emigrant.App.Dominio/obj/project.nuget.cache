@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AX9O1EUk4NIi552DtC4GrXx2hhKDaNiJ764Fnb6uQw7W3U3pFfG5AJNFwl2yv6dROVZeZwyp9oVnNa5uSA2MJw==",
+  "success": true,
+  "projectFilePath": "C:\\platzi\\emigrant\\Emigrant.App\\Emigrant.App.Dominio\\Emigrant.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AnaLucía\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\AnaLucía\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\AnaLucía\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

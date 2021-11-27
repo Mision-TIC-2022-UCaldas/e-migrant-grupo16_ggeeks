@@ -1,0 +1,49 @@
+@page
+@model Emigrant.App.Frontend.Pages.ListMigranteModel
+@{
+}
+ 
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellidos</th>
+      <th scope="col">Tipo Id</th>
+      <th scope="col">Identificacion</th>
+      <th scope="col">Pais Origen</th>
+      <th scope="col">Fecha Nacimiento</th>
+      <th scope="col">Correo</th>
+      <th scope="col">Telefono</th>
+      <th scope="col">Direccion</th>
+      <th scope="col">Ciudad</th>
+      <th scope="col">Situacion Laboral</th>
+    </tr>
+  </thead>
+  @foreach (var migr in Model.Migrante)
+    {
+        <tr>
+            <td>@migr.id</td>
+            <td>@migr.nombre</td>
+            <td>@migr.apellidos</td>
+            <td>@migr.tipodocumento</td>
+            <td>@migr.numeroidentificacion</td>
+            <td>@migr.paisorigen</td>
+            <td>@migr.fechanacimiento</td>
+            <td>@migr.email</td>
+            <td>@migr.telefono</td>
+            <td>@migr.direccionactual</td>
+            <td>@migr.ciudad</td>
+            <td>@migr.situacionlaboral</td>
+            <td>
+              <a class="btn btn-info" asp-page="./Details" asp-route-migranteId="@migr.id">Ver</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-migranteId="@migr.id">Editar</a>
+              <form method="POST">
+                <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@migr.id">
+                <button type="submit"class="btn btn-danger" href="">Eliminar</button>
+              </form>
+              </td>
+        </tr>
+    }
+
+</table>

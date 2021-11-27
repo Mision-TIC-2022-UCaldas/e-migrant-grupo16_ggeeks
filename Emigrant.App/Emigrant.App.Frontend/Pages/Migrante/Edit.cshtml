@@ -1,0 +1,36 @@
+@page
+@model Emigrant.App.Frontend.Pages.EditMigranteModel
+@{
+    var migr = Model.Migrante;
+}
+ 
+<div class="text-center">
+<form method="POST">
+  <label for="id" class="form-label">id:</label>
+  <input type="number" class="form-control" id="id" name="id" placeholder="id" asp-for="@migr.id">
+  <label for="Nombre" class="form-label">Nombre:</label>
+  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" asp-for="@migr.nombre">
+  <label for="Apellidos" class="form-label">Apellidos:</label>
+  <input type="text" class="form-control" id="apellidos" name="apellidos" placeholder="Apellidos" asp-for="@migr.apellidos">
+  <label for="Tipo Documento" class="form-label">Tipo Documento:</label>
+  <input type="text" class="form-control" id="tipodocumento" name="tipodocumento" placeholder="Tipo Documento" asp-for="@migr.tipodocumento">
+  <label for="Numero Identificacion" class="form-label">Número de identificacion:</label>
+  <input type="text" class="form-control" id="numeroidentificacion" name="numeroidentificacion" placeholder="Número de identificacion" asp-for="@migr.numeroidentificacion">
+  <label for="Pais" class="form-label">Pais Origen:</label>
+  <input type="text" class="form-control" id="paisorigen" name="paisorigen" placeholder="Pais Origen" asp-for="@migr.paisorigen">
+  <label for="fechanacimiento" class="form-label">Fecha nacimiento:</label>
+  <input type="date" class="form-control" id="fechanacimiento" name="fechanacimiento" placeholder="Fecha Nacimiento" asp-for="@migr.fechanacimiento">
+  <label for="email" class="form-label">Correo Electronico:</label>
+  <input type="text" class="form-control" id="email" name="email" placeholder="Correo Electronico" asp-for="@migr.email">
+  <label for="telefono" class="form-label">Teléfono:</label>
+  <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Teléfono" asp-for="@migr.telefono"> 
+  <label for="direccion" class="form-label">Dirección:</label>
+  <input type="text" class="form-control" id="direccionactual" name="direccionactual" placeholder="Dirección Actual" asp-for="@migr.direccionactual">
+  <label for="ciudad" class="form-label">Ciudad:</label>
+  <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ciudad" asp-for="@migr.ciudad">
+  <label for="situacion laboral" class="form-label">Situacion Laboral:</label>
+  <input type="text" class="form-control" id="situacionlaboral" name="situacionlaboral" placeholder="Situacion Laboral" asp-for="@migr.situacionlaboral">
+  <hr>
+  <button type="submit" class="btn btn-success">Enviar</button>
+</form>
+</div>

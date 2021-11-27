@@ -1,0 +1,9 @@
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Dominio\bin\Debug\netstandard2.0\Emigrant.App.Dominio.deps.json
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Dominio\bin\Debug\netstandard2.0\Emigrant.App.Dominio.dll
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Dominio\bin\Debug\netstandard2.0\Emigrant.App.Dominio.pdb
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\netstandard2.0\Emigrant.App.Dominio.csprojAssemblyReference.cache
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\netstandard2.0\Emigrant.App.Dominio.AssemblyInfoInputs.cache
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\netstandard2.0\Emigrant.App.Dominio.AssemblyInfo.cs
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\netstandard2.0\Emigrant.App.Dominio.csproj.CoreCompileInputs.cache
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\netstandard2.0\Emigrant.App.Dominio.dll
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Dominio\obj\Debug\netstandard2.0\Emigrant.App.Dominio.pdb
