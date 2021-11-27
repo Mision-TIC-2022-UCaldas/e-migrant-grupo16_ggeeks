@@ -1,0 +1,19 @@
+@page
+@model Emigrant.App.Frontend.Pages.DetailsOrganizacionModel
+@{
+    var org = Model.Organizacion;
+}
+ 
+<h1>Detalle </h1> 
+<ul class="list-group list-group-flush">
+  <li class="list-group-item"><b>id: </b> @org.id</li>
+  <li class="list-group-item"><b>Razon Social: </b> @org.razonsocial</li>
+  <li class="list-group-item"><b>Nit: </b> @org.nit</li>
+  <li class="list-group-item"><b>Direccion: </b> @org.direccion</li>
+  <li class="list-group-item"><b>Ciudad: </b> @org.ciudad</li>
+  <li class="list-group-item"><b>Telefono: </b> @org.telefono</li>
+  <li class="list-group-item"><b>Direccion electronica: </b> @org.correo</li>
+  <li class="list-group-item"><b>Pagina web: </b> @org.paginaweb</li>
+  <li class="list-group-item"><b>Sector: </b> @org.sector</li>
+  <li class="list-group-item"><b>Servicio ofrece: </b> @org.servicioofrece</li>
+</ul>	
