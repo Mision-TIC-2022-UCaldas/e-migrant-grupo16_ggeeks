@@ -1,0 +1,21 @@
+@page
+@model Emigrant.App.Frontend.Pages.DetailsMigranteModel
+@{
+    var migr = Model.Migrante;
+}
+ 
+<h1>Detalle </h1> 
+<ul class="list-group list-group-flush">
+  <li class="list-group-item"><b>id: </b> @migr.id</li>
+  <li class="list-group-item"><b>Nombre: </b> @migr.nombre</li>
+  <li class="list-group-item"><b>Apellidos: </b> @migr.apellidos</li>
+  <li class="list-group-item"><b>Tipo Doc: </b> @migr.tipodocumento</li>
+  <li class="list-group-item"><b>Numero Identificacion: </b> @migr.numeroidentificacion</li>
+  <li class="list-group-item"><b>Pais: </b> @migr.paisorigen</li>
+  <li class="list-group-item"><b>Fecha Nacimiento: </b> @migr.fechanacimiento</li>
+  <li class="list-group-item"><b>Correo electronico: </b> @migr.email</li>
+  <li class="list-group-item"><b>Telefono: </b> @migr.telefono</li>
+  <li class="list-group-item"><b>Direccion actual: </b> @migr.direccionactual</li>
+  <li class="list-group-item"><b>Ciudad: </b> @migr.ciudad</li>
+  <li class="list-group-item"><b>Situacion Laboral: </b> @migr.situacionlaboral</li>
+</ul>	

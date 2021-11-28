@@ -1,0 +1,45 @@
+@page
+@model Emigrant.App.Frontend.Pages.ListOrganizacionModel
+@{
+}
+ 
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Razon Social</th>
+      <th scope="col">Nit</th>
+      <th scope="col">Direccion</th>
+      <th scope="col">Ciudad</th>
+      <th scope="col">Telefono</th>
+      <th scope="col">Direccion electronica</th>
+      <th scope="col">Pagina Web</th>
+      <th scope="col">Sector</th>
+      <th scope="col">Servicio ofrece</th>
+    </tr>
+  </thead>
+  @foreach (var org in Model.Organizacion)
+    {
+        <tr>
+            <td>@org.id</td>
+            <td>@org.razonsocial</td>
+            <td>@org.nit</td>
+            <td>@org.direccion</td>
+            <td>@org.ciudad</td>
+            <td>@org.telefono</td>
+            <td>@org.correo</td>
+            <td>@org.paginaweb</td>
+            <td>@org.sector</td>
+            <td>@org.servicioofrece</td>
+            <td>
+              <a class="btn btn-info" asp-page="./Details" asp-route-organizacionId="@org.id">Ver</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-organizacionId="@org.id">Editar</a>
+              <form method="POST">
+                <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@org.id">
+                <button type="submit"class="btn btn-danger" href="">Eliminar</button>
+              </form>
+              </td>
+        </tr>
+    }
+
+</table>

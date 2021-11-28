@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h2EF116Ab/AXuu6IBHYdHBD9dEWjgggxYr2RAgdAoqmeYdVnIzNTJ09kHX2KJvdf/7TXV8GyDQW8kqooeaGO5w==",
+  "success": true,
+  "projectFilePath": "C:\\platzi\\emigrant\\Emigrant.App\\Emigrant.App.Servicios\\Emigrant.App.Servicios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AnaLucía\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\AnaLucía\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

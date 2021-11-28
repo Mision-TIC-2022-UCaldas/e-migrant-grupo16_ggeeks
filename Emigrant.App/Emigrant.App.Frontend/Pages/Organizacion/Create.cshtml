@@ -1,0 +1,35 @@
+@page
+@model Emigrant.App.Frontend.Pages.FormOrganizacionModel
+@{
+  var org = Model.Organizacion;  
+}
+ 
+<div class="text-center">
+<form method="POST">
+  <label for="nombre" class="form-label">Razon Social:</label>
+  <input type="text" class="form-control" id="razonsocial" name="razonsocial" placeholder="Razon Social" asp-for="Organizacion.razonsocial" required>
+  <span class="text-danger" asp-validation-for="Organizacion.razonsocial"></span>
+  <label for="nit" class="form-label">Nit:</label>
+  <input type="text" class="form-control" id="nit" name="nit" placeholder="Nit" asp-for="Organizacion.nit" required>
+  <span class="text-danger" asp-validation-for="Organizacion.nit"></span>
+  <label for="direccion" class="form-label">Direccion:</label>
+  <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Direccion" asp-for="Organizacion.direccion" required>
+  <span class="text-danger" asp-validation-for="Organizacion.direccion"></span>
+  <label for="ciudad" class="form-label">Ciudad:</label>
+  <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ciudad" asp-for="Organizacion.ciudad" required>
+  <span class="text-danger" asp-validation-for="Organizacion.ciudad"></span>
+  <label for="telefono" class="form-label">Telefono:</label>
+  <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Telefono" asp-for="Organizacion.telefono" required>
+  <span class="text-danger" asp-validation-for="Organizacion.telefono"></span>
+  <label for="correo" class="form-label">Correo:</label>
+  <input type="text" class="form-control" id="correo" name="correo" placeholder="Correo">
+  <label for="paginaweb" class="form-label">Pagina web:</label>
+  <input type="text" class="form-control" id="paginaweb" name="paginaweb" placeholder="Pagina web">
+  <label for="sector" class="form-label">sector:</label>
+  <input type="text" class="form-control" id="sector" name="sector" placeholder="Sector">
+  <label for="servicioofrecido" class="form-label">Servicio ofrecido:</label>
+  <input type="text" class="form-control" id="servicioofrece" name="servicioofrece" placeholder="Servicio ofrecido">
+  <hr>
+  <button type="submit" class="btn btn-success">Enviar</button>
+</form>
+</div>

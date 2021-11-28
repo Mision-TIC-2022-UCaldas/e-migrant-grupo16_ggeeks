@@ -1,0 +1,12 @@
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\netstandard2.1\Emigrant.App.Persistencia.csprojAssemblyReference.cache
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\netstandard2.1\Emigrant.App.Persistencia.AssemblyInfoInputs.cache
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\netstandard2.1\Emigrant.App.Persistencia.AssemblyInfo.cs
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\netstandard2.1\Emigrant.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\netstandard2.1\Emigrant.App.Persistencia.deps.json
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\netstandard2.1\Emigrant.App.Persistencia.dll
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\netstandard2.1\Emigrant.App.Persistencia.pdb
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\netstandard2.1\Emigrant.App.Dominio.dll
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\bin\Debug\netstandard2.1\Emigrant.App.Dominio.pdb
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\netstandard2.1\Emigrant.App.Persistencia.csproj.CopyComplete
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\netstandard2.1\Emigrant.App.Persistencia.dll
+C:\platzi\emigrant\Emigrant.App\Emigrant.App.Persistencia\obj\Debug\netstandard2.1\Emigrant.App.Persistencia.pdb
